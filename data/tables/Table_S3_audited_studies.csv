@@ -1,0 +1,22 @@
+﻿ID,Study,Task,Negative-set status,Relationship,Split identity,Reported negatives
+A1,AntiDMPpred,General ADP,Y,Separately sourced,N,236
+A10,AntiT2DMP-Pred,T2ADP vs non-T2ADP,N,Unavailable,N,460
+A11,Deepeptide,Residue-level IDR,N,Non-standard binary,N,
+A12,De novo framework,General ADP generation,P,Generated null,N,
+A13,FedAntiDiaPep,General ADP,Y,Full match,OWN,966
+A14,DQN ensemble,General ADP,Y,Contains F966 + 433 extra,OWN,1399
+A2,ADP-Fuse,General ADP (T1/T2),Y,Contains F966 + 433 extra,OWN,1399
+A3,StackDPPIV,DPP-IV,Y,Full match,Y,665
+A4,StructuralDPPIV,DPP-IV,Y,Full match,Y,665
+A5,BERT-DPPIV,DPP-IV,Y,Full match,Y,665
+A6,STADIP,General ADP,N,Inherited from A2,N,1399
+A7,Yue et al.,General ADP,P,Separately sourced,OWN,
+A8,T1/T2 classifier,T1DM vs T2DM,N,No negative class,NA,
+A9,BertADP,General ADP,Y,Full match,POOL,966
+B1,Bilingua-DPP-IV,DPP-IV,Y,Recurated variant; separate external set,OWN,666
+H1,iDPPIV-SCM,DPP-IV,Y,Full match,Y,665
+H2,iDPPIV-SI,DPP-IV,Y,Full match,Y,665
+H3,iDPPIV-PC,DPP-IV,Y,Full match,Y,665
+H4,BBATProt,DPP-IV,P,Available training subset; test unverified,P,665
+H5,IPPF-FE,DPP-IV,Y,Full match,Y,665
+H6,SeqDPPIV,DPP-IV,Y,Length-filtered subset (629/665),OWN,629

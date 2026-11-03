@@ -1,0 +1,8 @@
+﻿sequence,conflict_type,H1_train_pos,H1_train_neg,H1_test_pos,H1_test_neg,fixed_split_versions,H6_status,Bilingua_status,References
+FAQTQS,cross_train_test,,train-negative.txt:436,test-positive.txt:82,,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+GPFPIIV,same_train_opposite_labels,train-positive.txt:814,train-negative.txt:262,,,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+LHLPLP,same_train_opposite_labels,train-positive.txt:562,train-negative.txt:624,,,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+LPVPQ,same_train_opposite_labels,train-positive.txt:638,train-negative.txt:948,,,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+LTDVEN,cross_train_test,train-positive.txt:614,,,test-negative.txt:214,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+LTQTPVVVPPF,same_train_opposite_labels,train-positive.txt:834,train-negative.txt:148,,,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"
+VRGPFP,cross_train_test,train-positive.txt:560,,,test-negative.txt:230,H1;H2;H3;H5;A3;A4;A5,same_label_conflict;own_random_split,absent_both_labels,"Charoenkwan et al.,2020; exact audited occurrences in TableS5/S5b"

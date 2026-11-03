@@ -1,0 +1,7 @@
+{
+  "validation_records": 266,
+  "test_records": 266,
+  "identical_ordered_sequences_and_labels": true,
+  "negative_records": 133,
+  "positive_records": 133
+}

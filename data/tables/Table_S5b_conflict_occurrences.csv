@@ -1,0 +1,123 @@
+﻿model,sequence,split,label,source_file,source_record,source_line
+A3,FAQTQS,train,0,A3_StackDPPIV/source/TR_neg_dppiv.txt,>Negative 217,436
+A3,FAQTQS,test,1,A3_StackDPPIV/source/TS_pos_dppiv.txt,>Positive 40,82
+A3,GPFPIIV,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 406,814
+A3,GPFPIIV,train,0,A3_StackDPPIV/source/TR_neg_dppiv.txt,>Negative 130,262
+A3,LHLPLP,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 280,562
+A3,LHLPLP,train,0,A3_StackDPPIV/source/TR_neg_dppiv.txt,>Negative 311,624
+A3,LPVPQ,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 318,638
+A3,LPVPQ,train,0,A3_StackDPPIV/source/TR_neg_dppiv.txt,>Negative 473,948
+A3,LTDVEN,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 306,614
+A3,LTDVEN,test,0,A3_StackDPPIV/source/TS_neg_dppiv.txt,>Negative 106,214
+A3,LTQTPVVVPPF,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 416,834
+A3,LTQTPVVVPPF,train,0,A3_StackDPPIV/source/TR_neg_dppiv.txt,>Negative 73,148
+A3,VRGPFP,train,1,A3_StackDPPIV/source/TR_pos_dppiv.txt,>Positive 279,560
+A3,VRGPFP,test,0,A3_StackDPPIV/source/TS_neg_dppiv.txt,>Negative 114,230
+A4,FAQTQS,train,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,749,750
+A4,FAQTQS,test,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/test/test.tsv,41,42
+A4,GPFPIIV,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,407,408
+A4,GPFPIIV,train,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,662,663
+A4,LHLPLP,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,281,282
+A4,LHLPLP,train,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,843,844
+A4,LPVPQ,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,319,320
+A4,LPVPQ,train,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,1005,1006
+A4,LTDVEN,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,307,308
+A4,LTDVEN,test,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/test/test.tsv,240,241
+A4,LTQTPVVVPPF,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,417,418
+A4,LTQTPVVVPPF,train,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,605,606
+A4,VRGPFP,train,1,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/train/train.tsv,280,281
+A4,VRGPFP,test,0,A4_StructuralDPPIV/source/Structural-DPP-IV-main/data/DPP-IV/test/test.tsv,248,249
+A5,FAQTQS,train,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-negative.txt,>Negative 217,436
+A5,FAQTQS,test,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/test-positive.txt,>Positive 40,82
+A5,GPFPIIV,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 406,814
+A5,GPFPIIV,train,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-negative.txt,>Negative 130,262
+A5,LHLPLP,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 280,562
+A5,LHLPLP,train,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-negative.txt,>Negative 311,624
+A5,LPVPQ,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 318,638
+A5,LPVPQ,train,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-negative.txt,>Negative 473,948
+A5,LTDVEN,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 306,614
+A5,LTDVEN,test,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/test-negative.txt,>Negative 106,214
+A5,LTQTPVVVPPF,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 416,834
+A5,LTQTPVVVPPF,train,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-negative.txt,>Negative 73,148
+A5,VRGPFP,train,1,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/train-positive.txt,>Positive 279,560
+A5,VRGPFP,test,0,A5_DL设计规则/source/Fine_tune_data/DPP-IV_Dataset/test-negative.txt,>Negative 114,230
+A7,LLNQELLLNPTHQIYPV,train,0,A7_Yue/source/Yue-main/Training dataset-non_ADP.fasta,>seq5194|0|training,6218
+A7,LLNQELLLNPTHQIYPV,test,1,A7_Yue/source/Yue-main/independent_test_ADP.fasta,>New_ADP27,32
+H1,FAQTQS,train,0,H1_iDPPIV-SCM/source/DPP-IV/train-negative.txt,>Negative 217,436
+H1,FAQTQS,test,1,H1_iDPPIV-SCM/source/DPP-IV/test-positive.txt,>Positive 40,82
+H1,GPFPIIV,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 406,814
+H1,GPFPIIV,train,0,H1_iDPPIV-SCM/source/DPP-IV/train-negative.txt,>Negative 130,262
+H1,LHLPLP,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 280,562
+H1,LHLPLP,train,0,H1_iDPPIV-SCM/source/DPP-IV/train-negative.txt,>Negative 311,624
+H1,LPVPQ,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 318,638
+H1,LPVPQ,train,0,H1_iDPPIV-SCM/source/DPP-IV/train-negative.txt,>Negative 473,948
+H1,LTDVEN,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 306,614
+H1,LTDVEN,test,0,H1_iDPPIV-SCM/source/DPP-IV/test-negative.txt,>Negative 106,214
+H1,LTQTPVVVPPF,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 416,834
+H1,LTQTPVVVPPF,train,0,H1_iDPPIV-SCM/source/DPP-IV/train-negative.txt,>Negative 73,148
+H1,VRGPFP,train,1,H1_iDPPIV-SCM/source/DPP-IV/train-positive.txt,>Positive 279,560
+H1,VRGPFP,test,0,H1_iDPPIV-SCM/source/DPP-IV/test-negative.txt,>Negative 114,230
+H2,FAQTQS,train,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_negative.txt,>Negative 217,436
+H2,FAQTQS,test,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/test_positive.txt,>Positive 40,82
+H2,GPFPIIV,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 406,814
+H2,GPFPIIV,train,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_negative.txt,>Negative 130,262
+H2,LHLPLP,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 280,562
+H2,LHLPLP,train,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_negative.txt,>Negative 311,624
+H2,LPVPQ,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 318,638
+H2,LPVPQ,train,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_negative.txt,>Negative 473,948
+H2,LTDVEN,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 306,614
+H2,LTDVEN,test,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/test_negative.txt,>Negative 106,214
+H2,LTQTPVVVPPF,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 416,834
+H2,LTQTPVVVPPF,train,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_negative.txt,>Negative 73,148
+H2,VRGPFP,train,1,H2_iDPPIV-SI/source/iDPPIV-SI/data/train_positive.txt,>Positive 279,560
+H2,VRGPFP,test,0,H2_iDPPIV-SI/source/iDPPIV-SI/data/test_negative.txt,>Negative 114,230
+H3,FAQTQS,train,0,H3_iDPPIV-PC/source/iDPPIV/data/train_negative.txt,>Negative 217,436
+H3,FAQTQS,test,1,H3_iDPPIV-PC/source/iDPPIV/data/test_positive.txt,>Positive 40,82
+H3,GPFPIIV,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 406,814
+H3,GPFPIIV,train,0,H3_iDPPIV-PC/source/iDPPIV/data/train_negative.txt,>Negative 130,262
+H3,LHLPLP,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 280,562
+H3,LHLPLP,train,0,H3_iDPPIV-PC/source/iDPPIV/data/train_negative.txt,>Negative 311,624
+H3,LPVPQ,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 318,638
+H3,LPVPQ,train,0,H3_iDPPIV-PC/source/iDPPIV/data/train_negative.txt,>Negative 473,948
+H3,LTDVEN,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 306,614
+H3,LTDVEN,test,0,H3_iDPPIV-PC/source/iDPPIV/data/test_negative.txt,>Negative 106,214
+H3,LTQTPVVVPPF,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 416,834
+H3,LTQTPVVVPPF,train,0,H3_iDPPIV-PC/source/iDPPIV/data/train_negative.txt,>Negative 73,148
+H3,VRGPFP,train,1,H3_iDPPIV-PC/source/iDPPIV/data/train_positive.txt,>Positive 279,560
+H3,VRGPFP,test,0,H3_iDPPIV-PC/source/iDPPIV/data/test_negative.txt,>Negative 114,230
+H4,GPFPIIV,train,0,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,535,535
+H4,GPFPIIV,train,1,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,753,753
+H4,LHLPLP,train,1,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,946,946
+H4,LHLPLP,train,0,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,1053,1053
+H4,LPVPQ,train,1,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,127,127
+H4,LPVPQ,train,0,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,379,379
+H4,LTQTPVVVPPF,train,1,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,77,77
+H4,LTQTPVVVPPF,train,0,H4_BBATProt/source/BBATProt-master/codes/DPPIV/train.tsv,412,412
+H5,FAQTQS,train,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-negative.fasta,>Negative 217,436
+H5,FAQTQS,test,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/test-positive.fasta,>Positive 40,82
+H5,GPFPIIV,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 406,814
+H5,GPFPIIV,train,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-negative.fasta,>Negative 130,262
+H5,LHLPLP,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 280,562
+H5,LHLPLP,train,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-negative.fasta,>Negative 311,624
+H5,LPVPQ,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 318,638
+H5,LPVPQ,train,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-negative.fasta,>Negative 473,948
+H5,LTDVEN,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 306,614
+H5,LTDVEN,test,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/test-negative.fasta,>Negative 106,214
+H5,LTQTPVVVPPF,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 416,834
+H5,LTQTPVVVPPF,train,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-negative.fasta,>Negative 73,148
+H5,VRGPFP,train,1,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/train-positive.fasta,>Positive 279,560
+H5,VRGPFP,test,0,H5_IPPF-FE/source/IPPF-FE-main/Dipeptidyl_peptidase‑IV_inhibitory_peptides/test-negative.fasta,>Negative 114,230
+H6,FAQTQS,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,212,213
+H6,FAQTQS,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,1201,1202
+H6,GPFPIIV,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,128,129
+H6,GPFPIIV,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,1036,1037
+H6,LHLPLP,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,296,297
+H6,LHLPLP,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,910,911
+H6,LPVPQ,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,449,450
+H6,LPVPQ,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,948,949
+H6,LTDVEN,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,604,605
+H6,LTDVEN,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,936,937
+H6,LTQTPVVVPPF,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,72,73
+H6,LTQTPVVVPPF,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,1046,1047
+H6,VRGPFP,model_input_pool,0,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,612,613
+H6,VRGPFP,model_input_pool,1,H6_SeqDPPIV/source/SeqDPPIV-main/SeqDPPIV model/DPPIV sequence and descriptors.csv,909,910

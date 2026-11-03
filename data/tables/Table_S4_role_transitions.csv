@@ -1,0 +1,9 @@
+﻿upstream,upstream_role,downstream,downstream_role,label,shared
+A2,train,A9,development_pool,0,658
+A2,train,A9,development_pool,1,658
+A2,train,A9,external_test,0,0
+A2,train,A9,external_test,1,0
+A2,test,A9,development_pool,0,241
+A2,test,A9,development_pool,1,219
+A2,test,A9,external_test,0,67
+A2,test,A9,external_test,1,0

@@ -1,0 +1,87 @@
+B1 saved commit:12ddb319b3926ed441ea6b534d57ec114c1087da
+Executable source excerpts; not historical execution logs.
+
+555:     elif ensemble_method == 'stacked':
+556:         # Meta-learner (Logistic Regression) on fold predictions
+557:         # Use probability of class 1 as meta-features: shape (num_samples, num_folds)
+558:         X_meta = all_probs_np[:, :, 1].T
+559:         meta_preds_proba = np.zeros((num_samples, num_classes))
+560:         # Using simple Logistic Regression, could explore others (e.g., LightGBM)
+561:         try:
+562:             # Train final meta-model on all fold predictions to predict test set
+563:             meta_model_final = LogisticRegression(max_iter=1000, C=0.1, solver='liblinear', class_weight='balanced')
+564:             # Note: Stacking typically involves cross-validation *within* the meta-learning step
+565:             # to avoid overfitting the meta-learner. A simpler approach for direct test prediction:
+566:             # Train on all fold-outputs to predict the (potentially unseen) test set labels.
+567:             # This requires OOF predictions on a hold-out set during training, which is complex here.
+568:             # Simpler (but potentially leaky): Train on fold test probs to predict actual test labels.
+569:             # Let's stick to the original implementation's simpler approach for now.
+570:             # This trains the meta-model directly on the test set fold probabilities.
+571:             # It's non-standard but aims to find a good combination rule for the test set itself.
+572:             meta_model_final.fit(X_meta, test_labels) # Fit on the actual test labels - prone to leakage!
+573:             # A more correct approach would use OOF predictions from training folds.
+574:             # For simplicity, keeping the potentially leaky version shown in original code.
+575:             print("Warning: Stacking ensemble uses test labels for meta-model fitting, which is non-standard and can lead to optimistic results.")
+576:             average_probs = meta_model_final.predict_proba(X_meta)
+577:         except Exception as e:
+595:     elif ensemble_method == 'optimized':
+596:         # Optimize decision threshold on average probabilities based on MCC
+597:         average_probs_for_opt = np.mean(all_probs_np, axis=0) # Use simple average probs for optimization
+598:         def threshold_objective(threshold, probs, true_labels):
+599:             preds = (probs[:, 1] > threshold[0]).astype(int)
+600:             # Minimize negative MCC (Maximize MCC)
+601:             return -matthews_corrcoef(true_labels, preds)
+602: 
+603:         try:
+604:             result = minimize(threshold_objective, x0=[0.5], args=(average_probs_for_opt, test_labels),
+605:                               bounds=[(0.01, 0.99)], method='L-BFGS-B')
+606:             best_threshold = result.x[0]
+607:             print(f"Optimized decision threshold: {best_threshold:.4f}")
+608:             average_probs = average_probs_for_opt # Use the mean probs for consistency
+609:             ensemble_preds = (average_probs[:, 1] > best_threshold).astype(int)
+643: def summarize_ensemble_comparison(all_fold_test_probs, test_labels, val_metrics=None):
+644:     """Compare different ensemble methods and return the best one based on MCC."""
+645:     methods = ['avg', 'weighted_avg', 'max_prob', 'stacked', 'calibrated', 'optimized']
+646:     results_dict = {} # Store {method: [acc, sn, sp, pre, mcc, f1, auc]}
+647:     predictions_dict = {} # Store {method: (preds, probs)}
+648: 
+649:     print("\n===== Ensemble Method Comparison =====")
+650:     table = Table(title="Ensemble Method Performance Comparison")
+651:     table.add_column("Method", style="cyan")
+652:     table.add_column("Accuracy (%)", justify="right")
+653:     table.add_column("SN", justify="right")
+654:     table.add_column("SP", justify="right")
+655:     table.add_column("Precision", justify="right")
+656:     table.add_column("MCC", justify="right", style="magenta")
+657:     table.add_column("F1", justify="right")
+658:     table.add_column("AUC", justify="right")
+659: 
+660:     best_mcc = -1.1 # Initialize lower than possible MCC
+661:     best_method = 'avg' # Default
+662: 
+663:     for method in methods:
+664:         try:
+665:              ensemble_preds, average_probs, metrics_results = ensemble_predictions(all_fold_test_probs, test_labels, val_metrics, method)
+666:              if metrics_results is not None:
+667:                  results_dict[method] = metrics_results
+668:                  predictions_dict[method] = (ensemble_preds, average_probs) # Store preds and probs
+669:                  # MCC is index 4
+670:                  if metrics_results[4] > best_mcc:
+671:                       best_mcc = metrics_results[4]
+672:                       best_method = method
+673:                  # Add row to table
+674:                  table.add_row(
+1225:     # --- Ensemble Evaluation ---
+1226:     print("\n===== Final Ensemble Evaluation on Test Set =====")
+1227:     # Use validation metrics (specifically MCC) from the best epoch of each fold for weighting
+1228:     # Also get best predictions/probs for plotting
+1229:     best_ensemble_method, ensemble_results_dict, best_ensemble_preds, best_ensemble_probs = summarize_ensemble_comparison(
+1230:         all_fold_test_probs, test_labels, all_fold_val_metrics
+1231:     )
+1232: 
+1233:     final_metrics = [0.0] * 7
+1234:     if best_ensemble_method and best_ensemble_method in ensemble_results_dict:
+1235:         final_metrics = ensemble_results_dict[best_ensemble_method]
+1236:         print(f"\nFinal Performance using Best Ensemble Method ({best_ensemble_method}):")
+
+A4 local files: util/util_file.py lines39-65; main/train.py lines38-44; module/lightning_data_module.py lines73-99. Exact paths and hashes in TableS1.

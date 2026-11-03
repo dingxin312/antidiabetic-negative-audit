@@ -1,0 +1,7 @@
+{
+  "commit": "12ddb319b3926ed441ea6b534d57ec114c1087da",
+  "file": "main/CNN_bimodal_Final.py",
+  "blob_matches_worktree": true,
+  "sha256": "a1c588724fca682f91f8ef8c27415933579bb4ed27e39e0b820d23ec7071733c",
+  "live_network_verification": "failed SSL EOF; local git snapshot verified"
+}

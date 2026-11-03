@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these materials, cite the associated manuscript."
+title: "Antidiabetic negative-evidence audit"
+type: software
+authors:
+  - name: "Author information to be completed"
+version: "1.0.0"
+date-released: "2026-11-03"
+license: MIT

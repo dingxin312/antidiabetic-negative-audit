@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.pdf
+!figures/*.pdf
+data/local/

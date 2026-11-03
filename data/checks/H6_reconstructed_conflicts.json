@@ -1,0 +1,152 @@
+[
+  {
+    "seed": 1,
+    "within_train_conflicts": [
+      "GPFPIIV",
+      "LHLPLP",
+      "LTDVEN",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "FAQTQS",
+      "LPVPQ",
+      "LTQTPVVVPPF"
+    ]
+  },
+  {
+    "seed": 2,
+    "within_train_conflicts": [
+      "LHLPLP",
+      "LPVPQ",
+      "LTDVEN",
+      "LTQTPVVVPPF",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [
+      "FAQTQS"
+    ],
+    "cross_split_exact": [
+      "GPFPIIV"
+    ]
+  },
+  {
+    "seed": 3,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "LPVPQ",
+      "LTDVEN",
+      "LTQTPVVVPPF"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "GPFPIIV",
+      "LHLPLP",
+      "VRGPFP"
+    ]
+  },
+  {
+    "seed": 4,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "GPFPIIV",
+      "LHLPLP",
+      "LTDVEN",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "LPVPQ",
+      "LTQTPVVVPPF"
+    ]
+  },
+  {
+    "seed": 5,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "GPFPIIV",
+      "LHLPLP",
+      "LPVPQ",
+      "LTDVEN",
+      "LTQTPVVVPPF"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "VRGPFP"
+    ]
+  },
+  {
+    "seed": 6,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "LPVPQ",
+      "LTDVEN"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "GPFPIIV",
+      "LHLPLP",
+      "LTQTPVVVPPF",
+      "VRGPFP"
+    ]
+  },
+  {
+    "seed": 7,
+    "within_train_conflicts": [
+      "GPFPIIV",
+      "LHLPLP",
+      "LTDVEN",
+      "LTQTPVVVPPF",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "FAQTQS",
+      "LPVPQ"
+    ]
+  },
+  {
+    "seed": 8,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "GPFPIIV",
+      "LHLPLP",
+      "LPVPQ",
+      "LTQTPVVVPPF",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "LTDVEN"
+    ]
+  },
+  {
+    "seed": 9,
+    "within_train_conflicts": [
+      "FAQTQS",
+      "GPFPIIV",
+      "LHLPLP",
+      "LPVPQ",
+      "LTDVEN",
+      "LTQTPVVVPPF",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": []
+  },
+  {
+    "seed": 10,
+    "within_train_conflicts": [
+      "GPFPIIV",
+      "LHLPLP",
+      "LPVPQ",
+      "LTDVEN",
+      "VRGPFP"
+    ],
+    "within_test_conflicts": [],
+    "cross_split_exact": [
+      "FAQTQS",
+      "LTQTPVVVPPF"
+    ]
+  }
+]
