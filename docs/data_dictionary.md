@@ -4,8 +4,8 @@
 
 One row per evidence type: missing annotation, other-function comparator,
 random/generated control, measured non-response and matched food/process
-control. Columns record the analytical level, what is observed, what the
-evidence can support and what it cannot support.
+control. Columns record the analytical level, what is observed, the immediate
+comparison and the additional observation needed for a broader claim.
 
 ## `data/tables/Table2_reference_relationships.csv`
 
@@ -22,8 +22,8 @@ Columns give the conflict type, H1 file positions and cross-version status.
 
 ## `data/tables/Table4_use_specific_judgments.csv`
 
-Four intended uses. Each row separates the evidence needed, the inference it
-supports and the inference it does not establish. This is not a quality score.
+Four intended uses. Each row states a directly interpretable comparison and
+the further comparison needed to support a broader claim.
 
 ## `data/tables/Table_S1_literature_evidence.csv`
 
