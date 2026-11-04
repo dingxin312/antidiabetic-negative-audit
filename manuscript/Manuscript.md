@@ -170,7 +170,7 @@ Negative evidence in antidiabetic peptide prediction is heterogeneous: missing a
 
 # Data and code availability
 
-The supplementary package contains a literature-to-claim ledger with original-PDF locators and hashes, the audit source inventory, the 21-study list, role transitions, conflict occurrences, partition counts and the complete exact-overlap matrix. Audit-code snapshots and a reconstruction helper accompany it. The derived materials are assembled in the local supplementary package; a publicly accessible repository and persistent identifier have not yet been established. A public access route for the derived evidence remains to be supplied before submission. Journal PDFs are not automatically included in redistribution, and access to the original predictors' repositories does not replace access to the review's derived materials. No new biological experiments or predictor-training runs were performed for this review.
+The audit code and derived tables are publicly available at https://github.com/dingxin312/antidiabetic-negative-audit. Original journal articles and third-party model files are not redistributed; their source locations and SHA-256 hashes are listed in the supplementary source inventory. No new biological experiments or predictor-training runs were performed.
 
 # Tables and figure content
 
