@@ -12,6 +12,9 @@ manuscript.
   claims from parsed records.
 - `validate_materials.py`: checks counts, partitions, conflict identities,
   source hashes and table assembly.
+- `milk_precursor_audit.py`: checks the four archived A3 F665 input hashes and
+  the frozen UniProt reference hash, then reproduces Table S8 and its summary.
 
 The scripts expect the original audit layout and source artifacts; they are not
 a self-contained training package. See `docs/reproducibility.md`.
+The milk-precursor script is standalone once the four A3 files are obtained.

@@ -37,3 +37,33 @@ the checks reported in the manuscript, not as a turnkey pipeline.
 - No historical execution log was reconstructed.
 - No source PDF or third-party model file is redistributed.
 - Exact sequence identity is used; no homology or subsequence substitution.
+
+## Frozen milk-precursor annotation
+
+`data/reference/Reference_milk_proteins_20261105.fasta` contains the exact
+The six proteins were selected to cover the major bovine casein and whey fractions: alpha-s1-casein, alpha-s2-casein, beta-casein, kappa-casein, beta-lactoglobulin and alpha-lactalbumin. The UniProt snapshot used for these six bovine milk proteins (P02662,
+P02663, P02666, P02668, P02754 and P00711). Its adjacent JSON file records
+the retrieval time, individual reviewed FASTA headers and SHA-256 hashes.
+The input is the four A3 TR/TS files listed in Table S2. Their expected hashes
+are in the script and are checked before parsing. With these third-party
+inputs obtained in the `A3_StackDPPIV/source` layout, reproduce offline:
+
+```bash
+python code/milk_precursor_audit.py /path/to/A3_StackDPPIV/source \
+  --reference data/reference/Reference_milk_proteins_20261105.fasta \
+  --output /tmp/milk_precursor_recheck
+cmp /tmp/milk_precursor_recheck/Table_S8_milk_precursor_matches.csv \
+  data/tables/Table_S8_milk_precursor_matches.csv
+cmp /tmp/milk_precursor_recheck/milk_precursor_summary.json \
+  data/checks/milk_precursor_summary.json
+```
+
+The analysis compares distinct exact sequence identities within each label
+class to six selected reference precursors, with >=5 residues for the main
+comparison, >=6 as a sensitivity threshold and seven length strata in the
+summary. The positive and negative sets each contain 665 identities and
+overlap by seven, so class denominators must not be added as if disjoint.
+Substring matches do not establish experimental origin, peptide release or
+predictor behavior. The one-time `--fetch-reference` option creates a fresh
+FASTA and retrieval manifest only at a new path; use the included frozen file
+to reproduce the reported results.

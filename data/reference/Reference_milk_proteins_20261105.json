@@ -1,0 +1,49 @@
+{
+  "retrieved_utc": "2026-11-05T06:01:27.650453+00:00",
+  "reference_file": "Reference_milk_proteins_20261105.fasta",
+  "reference_sha256": "4b901bcadf607bca28203e8a55a2235a9a76bc91d1382cfdb349d0ba197b24f9",
+  "records": [
+    {
+      "accession": "P02662",
+      "url": "https://rest.uniprot.org/uniprotkb/P02662.fasta",
+      "header": ">sp|P02662|CASA1_BOVIN Alpha-S1-casein OS=Bos taurus OX=9913 GN=CSN1S1 PE=1 SV=2",
+      "fasta_sha256": "d19bbbb4fd0734f1a57bac1df6c69c06cef13c72c3dd35bde8811f44773bee45",
+      "sequence_length": 214
+    },
+    {
+      "accession": "P02663",
+      "url": "https://rest.uniprot.org/uniprotkb/P02663.fasta",
+      "header": ">sp|P02663|CASA2_BOVIN Alpha-S2-casein OS=Bos taurus OX=9913 GN=CSN1S2 PE=1 SV=2",
+      "fasta_sha256": "74c8df06da1716a30c53b5009cc31be56e8dc4ede12f4408e332d34795561361",
+      "sequence_length": 222
+    },
+    {
+      "accession": "P02666",
+      "url": "https://rest.uniprot.org/uniprotkb/P02666.fasta",
+      "header": ">sp|P02666|CASB_BOVIN Beta-casein OS=Bos taurus OX=9913 GN=CSN2 PE=1 SV=2",
+      "fasta_sha256": "e763754475a28523a4b9d2c8a5f302354bbf2963988ff36dec1f3c3849a3a5ae",
+      "sequence_length": 224
+    },
+    {
+      "accession": "P02668",
+      "url": "https://rest.uniprot.org/uniprotkb/P02668.fasta",
+      "header": ">sp|P02668|CASK_BOVIN Kappa-casein OS=Bos taurus OX=9913 GN=CSN3 PE=1 SV=1",
+      "fasta_sha256": "32284e89ab3c940e72bc74c9e2c7a2f7394f1f6e6be53aaede0f8fb0150d8ae2",
+      "sequence_length": 190
+    },
+    {
+      "accession": "P02754",
+      "url": "https://rest.uniprot.org/uniprotkb/P02754.fasta",
+      "header": ">sp|P02754|LACB_BOVIN Beta-lactoglobulin OS=Bos taurus OX=9913 GN=LGB PE=1 SV=3",
+      "fasta_sha256": "6501a4c2e0adbfc0a1f56a9478825648d3694c85f28157326bc292735aa165cc",
+      "sequence_length": 178
+    },
+    {
+      "accession": "P00711",
+      "url": "https://rest.uniprot.org/uniprotkb/P00711.fasta",
+      "header": ">sp|P00711|LALBA_BOVIN Alpha-lactalbumin OS=Bos taurus OX=9913 GN=LALBA PE=1 SV=2",
+      "fasta_sha256": "efd2981141bdcb37d2b6de28ff21e4d31b56fc5d0673bd0e562a3902625106d3",
+      "sequence_length": 142
+    }
+  ]
+}

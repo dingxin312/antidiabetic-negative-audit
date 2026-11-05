@@ -1,0 +1,184 @@
+{
+  "classes": {
+    "positive": {
+      "identities": 665,
+      "median_length": 4,
+      "length_at_most_4": 352,
+      "length_at_least_5": 313,
+      "six_protein_matches_length_at_least_5": 198,
+      "beta_casein_matches_length_at_least_5": 102,
+      "length_at_least_6": 275,
+      "six_protein_matches_length_at_least_6": 173
+    },
+    "negative": {
+      "identities": 665,
+      "median_length": 15,
+      "length_at_most_4": 0,
+      "length_at_least_5": 665,
+      "six_protein_matches_length_at_least_5": 59,
+      "beta_casein_matches_length_at_least_5": 32,
+      "length_at_least_6": 601,
+      "six_protein_matches_length_at_least_6": 48
+    }
+  },
+  "length_strata": {
+    "positive": [
+      {
+        "length": "2-4",
+        "identities": 352,
+        "six_protein_matches": 245,
+        "beta_casein_matches": 118
+      },
+      {
+        "length": "5-5",
+        "identities": 38,
+        "six_protein_matches": 25,
+        "beta_casein_matches": 10
+      },
+      {
+        "length": "6-7",
+        "identities": 73,
+        "six_protein_matches": 51,
+        "beta_casein_matches": 28
+      },
+      {
+        "length": "8-9",
+        "identities": 88,
+        "six_protein_matches": 38,
+        "beta_casein_matches": 17
+      },
+      {
+        "length": "10-14",
+        "identities": 89,
+        "six_protein_matches": 65,
+        "beta_casein_matches": 30
+      },
+      {
+        "length": "15-19",
+        "identities": 21,
+        "six_protein_matches": 15,
+        "beta_casein_matches": 14
+      },
+      {
+        "length": "20+",
+        "identities": 4,
+        "six_protein_matches": 4,
+        "beta_casein_matches": 3
+      }
+    ],
+    "negative": [
+      {
+        "length": "2-4",
+        "identities": 0,
+        "six_protein_matches": 0,
+        "beta_casein_matches": 0
+      },
+      {
+        "length": "5-5",
+        "identities": 64,
+        "six_protein_matches": 11,
+        "beta_casein_matches": 5
+      },
+      {
+        "length": "6-7",
+        "identities": 76,
+        "six_protein_matches": 22,
+        "beta_casein_matches": 14
+      },
+      {
+        "length": "8-9",
+        "identities": 22,
+        "six_protein_matches": 5,
+        "beta_casein_matches": 4
+      },
+      {
+        "length": "10-14",
+        "identities": 98,
+        "six_protein_matches": 15,
+        "beta_casein_matches": 7
+      },
+      {
+        "length": "15-19",
+        "identities": 220,
+        "six_protein_matches": 4,
+        "beta_casein_matches": 0
+      },
+      {
+        "length": "20+",
+        "identities": 185,
+        "six_protein_matches": 2,
+        "beta_casein_matches": 2
+      }
+    ]
+  },
+  "conflicts": [
+    {
+      "sequence": "FAQTQS",
+      "beta_casein_precursor_start_1based": [
+        67
+      ],
+      "positive_split": "test",
+      "negative_split": "train"
+    },
+    {
+      "sequence": "GPFPIIV",
+      "beta_casein_precursor_start_1based": [
+        218
+      ],
+      "positive_split": "train",
+      "negative_split": "train"
+    },
+    {
+      "sequence": "LHLPLP",
+      "beta_casein_precursor_start_1based": [
+        148
+      ],
+      "positive_split": "train",
+      "negative_split": "train"
+    },
+    {
+      "sequence": "LPVPQ",
+      "beta_casein_precursor_start_1based": [
+        186
+      ],
+      "positive_split": "train",
+      "negative_split": "train"
+    },
+    {
+      "sequence": "LTDVEN",
+      "beta_casein_precursor_start_1based": [
+        142
+      ],
+      "positive_split": "train",
+      "negative_split": "test"
+    },
+    {
+      "sequence": "LTQTPVVVPPF",
+      "beta_casein_precursor_start_1based": [
+        92
+      ],
+      "positive_split": "train",
+      "negative_split": "train"
+    },
+    {
+      "sequence": "VRGPFP",
+      "beta_casein_precursor_start_1based": [
+        216
+      ],
+      "positive_split": "train",
+      "negative_split": "test"
+    }
+  ],
+  "scope": "A3 archived copy of F665; exact full-sequence matches to six selected Bos taurus reference precursors",
+  "source_files_sha256": {
+    "TR_pos_dppiv.txt": "669d3ba252705af989b44ef14c1ea3429870e21e00b3f096fb73fd779aee558e",
+    "TS_pos_dppiv.txt": "e96696b631df341976fad2b688c681d66976cb8a7229ceb5d9dc418a20ffd065",
+    "TR_neg_dppiv.txt": "5ab5a88dca0bdde26d835240d6923eac4a7fe239e2ed4c35c5904cd1a649d113",
+    "TS_neg_dppiv.txt": "7094b9386402a5e566fe39fb3f73120d32753ccf76cfc91a9f12918e2eb97444"
+  },
+  "reference_file": "Reference_milk_proteins_20261105.fasta",
+  "reference_sha256": "4b901bcadf607bca28203e8a55a2235a9a76bc91d1382cfdb349d0ba197b24f9",
+  "threshold": "Matches presented for length >=5; >=6 sensitivity and all-length bins included",
+  "cross_label_overlap": 7,
+  "interpretation": "Sequence containment is compatible with a precursor, not evidence of actual peptide origin, release, activity or model reliance on precursor identity."
+}

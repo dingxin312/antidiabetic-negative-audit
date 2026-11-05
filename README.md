@@ -30,7 +30,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The scripts are audit snapshots and expect source artifacts at paths described in `docs/reproducibility.md`. They do not train models or download data.
+Most scripts are audit snapshots and expect source artifacts at paths described in `docs/reproducibility.md`. The standalone milk-precursor check reproduces Table S8 from the four archived A3 files and the bundled frozen UniProt reference; normal reruns do not access the network. No script trains a predictor.
 
 ## Data and code availability
 

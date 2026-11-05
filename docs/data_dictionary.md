@@ -18,12 +18,14 @@ negatives; `n_neg_total` is populated only for complete versions.
 ## `data/tables/Table3_conflict_identities.csv`
 
 Seven sequence identities with opposite binary labels in the F665 reference.
-Columns give the conflict type, H1 file positions and cross-version status.
+Columns give the conflict type, H1 FASTA source-line positions, cross-version
+status and one-based positions in the P02666 precursor. Source-line positions
+are not record ordinals; a P02666 substring is not evidence of actual release.
 
 ## `data/tables/Table4_use_specific_judgments.csv`
 
-Four intended uses. Each row states a directly interpretable comparison and
-the further comparison needed to support a broader claim.
+Four intended uses. Columns separate the audited sequence fact, the direct
+model or food observation, and the next comparison for a broader claim.
 
 ## `data/tables/Table_S1_literature_evidence.csv`
 
@@ -65,10 +67,25 @@ discrepancies.
 Complete exact-sequence overlap matrix for the 17 retrievable negative
 versions. Values are counts of identical full sequences.
 
+## `data/tables/Table_S8_milk_precursor_matches.csv`
+
+One row per sequence identity within each F665 label class (665 positive and
+665 negative rows). The seven identities in both classes appear twice, once
+per class. Columns record split, length, exact matches to six selected bovine
+milk precursors, one-based P02666 start positions and opposite-label status.
+No column asserts actual milk origin, digestion release, activity or model use.
+
+`data/reference/Reference_milk_proteins_20261105.fasta` freezes six reviewed
+UniProt sequences; its JSON retrieval manifest lists accession, sequence
+version, source URL, time and SHA-256. `data/checks/milk_precursor_summary.json`
+contains length-stratified counts, source hashes, seven conflict positions and
+the >=5-residue main and >=6-residue sensitivity calculations.
+
 ## `data/checks/`
 
 Small JSON/text outputs from the A4 loader check, the pinned Bilingua commit,
-the H6 reconstruction, the software environment and the citation-key map.
+the H6 reconstruction, milk precursor matches, the software environment and
+the citation-key map.
 
 ## `data/evidence/Paragraph_evidence_map.csv`
 
