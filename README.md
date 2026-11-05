@@ -36,7 +36,7 @@ Most scripts are audit snapshots and expect source artifacts at paths described 
 
 ## Data and code availability
 
-The v1.0.0 release is archived at Zenodo: https://doi.org/10.5281/zenodo.23976753. The concept DOI, which resolves to the latest version, is https://doi.org/10.5281/zenodo.23976752.
+The audit code and derived tables are available at https://doi.org/10.5281/zenodo.23976753.
 
 The derived tables and figures in this repository are available under the licenses in `LICENSE` and `DATA_LICENSE.md`. A permanent archive DOI should be added here after the first public release.
 
