@@ -38,11 +38,11 @@ Most scripts are audit snapshots and expect source artifacts at paths described 
 
 The audit code and derived tables are available at https://doi.org/10.5281/zenodo.23976753.
 
-The derived tables and figures in this repository are available under the licenses in `LICENSE` and `DATA_LICENSE.md`. A permanent archive DOI should be added here after the first public release.
+The derived tables and figures are available under the licenses in `LICENSE` and `DATA_LICENSE.md`.
 
 ## Citation
 
-Cite the associated manuscript. Update `CITATION.cff` with the final author list and DOI before publication.
+Cite the associated manuscript. The archived DOI is recorded in `CITATION.cff`.
 
 ## Contact
 
