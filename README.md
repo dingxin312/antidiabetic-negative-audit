@@ -1,5 +1,7 @@
 # Antidiabetic negative-evidence audit
 
+[![DOI](https://zenodo.org/badge/1445092398.svg)](https://doi.org/10.5281/zenodo.23976752)
+
 This repository contains the derived tables, audit code and figures supporting the manuscript:
 
 **Negative evidence in AI-assisted discovery of food-derived antidiabetic peptides: construction, benchmark reuse and validation boundaries**
@@ -33,6 +35,8 @@ pip install -r requirements.txt
 Most scripts are audit snapshots and expect source artifacts at paths described in `docs/reproducibility.md`. The standalone milk-precursor check reproduces Table S8 from the four archived A3 files and the bundled frozen UniProt reference; normal reruns do not access the network. No script trains a predictor.
 
 ## Data and code availability
+
+The v1.0.0 release is archived at Zenodo: https://doi.org/10.5281/zenodo.23976753. The concept DOI, which resolves to the latest version, is https://doi.org/10.5281/zenodo.23976752.
 
 The derived tables and figures in this repository are available under the licenses in `LICENSE` and `DATA_LICENSE.md`. A permanent archive DOI should be added here after the first public release.
 
