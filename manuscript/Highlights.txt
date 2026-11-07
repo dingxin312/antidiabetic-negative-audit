@@ -1,0 +1,5 @@
+Negative labels define the contrast tested by antidiabetic-peptide predictors.
+Seven audited versions reuse 665 negatives and the 532/133 negative split.
+Source reuse and test-guided model selection require different evidence.
+In a designed 22-pentapeptide library, eight active peptides were predicted negative.
+Shortlist hit rates cannot measure misses in the starting candidate library.

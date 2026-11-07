@@ -14,6 +14,7 @@ manuscript.
   source hashes and table assembly.
 - `milk_precursor_audit.py`: checks the four archived A3 F665 input hashes and
   the frozen UniProt reference hash, then reproduces Table S8 and its summary.
+- `a5_candidate_audit.py`: extracts the A5 pentapeptide and tripeptide tables from the archived ACS supporting PDF and checks their F665 membership. It is an audit snapshot, not a standalone predictor package.
 
 The scripts expect the original audit layout and source artifacts; they are not
 a self-contained training package. See `docs/reproducibility.md`.

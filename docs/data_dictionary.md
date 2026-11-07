@@ -91,3 +91,20 @@ the citation-key map.
 
 Paragraph-level citation keys and evidence roles. Local source paths are
 deliberately omitted.
+
+
+## `data/tables/Table_S9_A5_candidate_results.csv`
+
+A5 five-residue design: sequence, predicted class, reported IC50 and source page. Eight designs had a negative prediction and a measured IC50; IPIPI is the lowest measured IC50 in the set.
+
+## `data/tables/Table_S9b_A5_tripeptide_membership.csv`
+
+A5 tripeptide designs with predicted class and exact membership in the F665 positive or negative files. The 80 tripeptides were all predicted positive; 72 had a measured IC50.
+
+## `data/tables/Table_S10_candidate_selection_stages.csv`
+
+Five purposefully selected food-protein candidate flows. Columns separate the enumerated library, the filtered set and the assayed peptides. Rows are not pooled into a recovery or false-negative rate.
+
+## `data/tables/Table_S11_conflict_assay_matches.csv`
+
+Two exact F665 conflict identities with independently published in vitro DPP-IV assay values. The assay result does not establish the origin of the deposited negative label.

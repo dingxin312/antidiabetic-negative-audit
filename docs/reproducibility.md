@@ -31,6 +31,10 @@ The other scripts expect the project's `02_解析/`, `03_Table2/`, `06_独立复
 and `07_封版/` directories. They are included as executable documentation of
 the checks reported in the manuscript, not as a turnkey pipeline.
 
+## A5 candidate audit
+
+`code/a5_candidate_audit.py` is retained as an executable snapshot of the A5 candidate and membership extraction. It requires the original `A5_BERT-DPPIV/source/ao3c05571_si_001.pdf` and the project layout used for the audit; the repository does not redistribute that PDF. The derived tables are `data/tables/Table_S9_A5_candidate_results.csv`, `Table_S9b_A5_tripeptide_membership.csv` and `data/checks/a5_candidate_summary.json`.
+
 ## Scope
 
 - No model was retrained.
@@ -41,7 +45,7 @@ the checks reported in the manuscript, not as a turnkey pipeline.
 ## Frozen milk-precursor annotation
 
 `data/reference/Reference_milk_proteins_20261105.fasta` contains the exact
-The six proteins were selected to cover the major bovine casein and whey fractions: alpha-s1-casein, alpha-s2-casein, beta-casein, kappa-casein, beta-lactoglobulin and alpha-lactalbumin. The UniProt snapshot used for these six bovine milk proteins (P02662,
+UniProt snapshot used for the six bovine milk proteins. They were selected to cover the major bovine casein and whey fractions: alpha-s1-casein, alpha-s2-casein, beta-casein, kappa-casein, beta-lactoglobulin and alpha-lactalbumin (P02662,
 P02663, P02666, P02668, P02754 and P00711). Its adjacent JSON file records
 the retrieval time, individual reviewed FASTA headers and SHA-256 hashes.
 The input is the four A3 TR/TS files listed in Table S2. Their expected hashes

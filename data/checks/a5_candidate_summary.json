@@ -1,0 +1,20 @@
+{
+  "source_relative_to_audit_root": "A5_BERT-DPPIV/source/ao3c05571_si_001.pdf",
+  "source_sha256": "99407648164cf92e2828a381ceff62e7723b60dec8e09f615ab8c57b8bc762f4",
+  "f665_reference_sha256": "7f7d1e004300bde395c4e7557986c15daecf8d50e76bd830fdf94dfc5f3ab50a",
+  "tripeptides_predicted_positive_in_S3": 80,
+  "tripeptides_exact_in_F665": {
+    "total": 18,
+    "positive:test": 6,
+    "positive:train": 12
+  },
+  "pentapeptides_in_S4_and_S5": 22,
+  "pentapeptides_exact_in_F665": 0,
+  "pentapeptides_predicted_negative_with_reported_IC50": 8,
+  "lowest_reported_IC50_uM": {
+    "sequence": "IPIPI",
+    "value": 47.47,
+    "predicted": 0
+  },
+  "limits": "Exact membership uses the audited A3 F665 positive and negative version (S8), with A5 sequence-file identity checked separately in the source audit. S3-S5 record these designed libraries; 72/80 measurable tripeptide responses appear in article Table 1. Sequence overlap does not resolve assay conditions, and zero pentapeptide overlap is not a homology test. No F665 error attribution or external-library error rate is estimated."
+}
